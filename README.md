@@ -1,4 +1,4 @@
-# @limerence-records/backend-contract
+# @limerencerecords/backend-contract
 
 Backend-контракт для взаимодействия сервисов лейбла Limerence Records.
 
