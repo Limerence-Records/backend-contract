@@ -1,6 +1,6 @@
 {
   "name": "@limerencerecords/backend-contract",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared runtime contracts for Limerence Records backend services",
   "license": "MIT",
   "sideEffects": false,
