@@ -15,7 +15,7 @@ npm install @limerencerecords/backend-contract
 ```json
 {
   "dependencies": {
-    "@limerence-records/backend-contract": "0.0.1"
+    "@limerencerecords/backend-contract": "0.0.3"
   }
 }
 ```
@@ -69,6 +69,5 @@ npm run pack:check
 ## Порядок создания новой версии
 
 1. Обновите версию пакета командой `npm version patch`, `npm version minor` или `npm version major`.
-2. Отправьте коммит и тег в GitHub командой `git push origin main --follow-tags`.
-3. Создайте GitHub Release из соответствующего тега `vX.Y.Z`.
-4. Workflow `publish.yml` опубликует пакет в npm через npm Trusted Publishing.
+2. Отправьте коммит и тег в GitHub командой `git push origin dev --follow-tags`.
+3. Workflow `publish.yml` автоматически опубликует тег `vX.Y.Z` в npm через npm Trusted Publishing.

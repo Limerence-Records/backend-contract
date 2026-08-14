@@ -20,6 +20,7 @@ test("parses a valid email command", () => {
   });
 
   assert.equal(result.id, "309");
+  assert.equal(SendEmailCommand.queue, "email_queue");
 });
 
 test("rejects an email command without recipients", () => {

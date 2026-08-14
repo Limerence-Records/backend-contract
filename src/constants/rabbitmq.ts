@@ -1,6 +1,7 @@
 export const RABBITMQ = {
   email: {
     exchange: "email_exchange",
+    queue: "email_queue",
     routingKey: "email_send",
   },
   workspaceDomain: {

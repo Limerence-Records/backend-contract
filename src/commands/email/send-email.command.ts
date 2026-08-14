@@ -4,6 +4,7 @@ import { EmailAddressSchema } from "../../models";
 
 export namespace SendEmailCommand {
   export const exchange = RABBITMQ.email.exchange;
+  export const queue = RABBITMQ.email.queue;
   export const routingKey = RABBITMQ.email.routingKey;
 
   export const PayloadSchema = z
